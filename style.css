@@ -3482,3 +3482,26 @@ body.cover-locked {
     background-size: cover !important;
   }
 }
+
+/* "We Are Getting Married!" Heading */
+.elementor-57580 .elementor-element.elementor-element-76ecb716,
+.elementor-element.elementor-element-76ecb716,
+.elementor-element-76ecb716,
+.elementor-element-76ecb716 p {
+  font-family: 'Playfair Display', 'playfair-display', Georgia, serif !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+  line-height: 1.35em !important;
+  letter-spacing: 0.5px !important;
+  color: #2b2b2b !important;
+}
+
+@media (max-width: 768px) {
+  .elementor-57580 .elementor-element.elementor-element-76ecb716,
+  .elementor-element.elementor-element-76ecb716,
+  .elementor-element-76ecb716,
+  .elementor-element-76ecb716 p {
+    font-size: 26px !important;
+    line-height: 1.35em !important;
+  }
+}
