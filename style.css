@@ -3328,3 +3328,104 @@ body.cover-locked {
     transform: rotate(360deg);
   }
 }
+
+/* ==========================================================================
+   GALLERY PHOTO GRID & LIGHTBOX FIX
+   ========================================================================== */
+.modern-gallery-grid,
+.elementor-gallery__container {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 10px !important;
+  width: 100% !important;
+  margin: 12px auto !important;
+  box-sizing: border-box !important;
+}
+
+@media (min-width: 600px) {
+  .modern-gallery-grid,
+  .elementor-gallery__container {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 14px !important;
+  }
+}
+
+.modern-gallery-grid .e-gallery-item,
+.elementor-gallery__container .e-gallery-item {
+  position: relative !important;
+  display: block !important;
+  width: 100% !important;
+  aspect-ratio: 1 / 1.25 !important;
+  border-radius: 14px !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12) !important;
+  border: 1.5px solid rgba(212, 175, 55, 0.35) !important;
+  cursor: pointer !important;
+  background: #f4efe6 !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease !important;
+}
+
+.modern-gallery-grid .e-gallery-item:hover,
+.elementor-gallery__container .e-gallery-item:hover {
+  transform: translateY(-3px) scale(1.02) !important;
+  box-shadow: 0 8px 24px rgba(78, 60, 35, 0.25) !important;
+  border-color: #d4af37 !important;
+}
+
+.gallery-photo-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  display: block !important;
+  transition: transform 0.4s ease !important;
+}
+
+.modern-gallery-grid .e-gallery-item:hover .gallery-photo-img,
+.elementor-gallery__container .e-gallery-item:hover .gallery-photo-img {
+  transform: scale(1.08) !important;
+}
+
+.modern-gallery-grid .elementor-gallery-item__overlay,
+.elementor-gallery__container .elementor-gallery-item__overlay {
+  position: absolute !important;
+  inset: 0 !important;
+  background: rgba(30, 20, 10, 0.35) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  opacity: 0 !important;
+  transition: opacity 0.3s ease !important;
+}
+
+.modern-gallery-grid .e-gallery-item:hover .elementor-gallery-item__overlay,
+.elementor-gallery__container .e-gallery-item:hover .elementor-gallery-item__overlay {
+  opacity: 1 !important;
+}
+
+.gallery-zoom-icon {
+  font-size: 22px !important;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.6)) !important;
+}
+
+/* Lightbox Modal Customization */
+.gallery-lightbox-modal {
+  border: 1.5px solid #d4af37 !important;
+  border-radius: 16px !important;
+  overflow: hidden !important;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7) !important;
+}
+
+.gallery-lightbox-modal .swal2-image {
+  max-height: 80vh !important;
+  object-fit: contain !important;
+  border-radius: 10px !important;
+  margin: 10px auto !important;
+}
+
+/* Fallback background image for countdown slideshow section */
+.elementor-element.elementor-element-36596cb5 {
+  background-image: url("images/photo6.jpg") !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  min-height: 350px !important;
+}

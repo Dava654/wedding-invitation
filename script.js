@@ -21,6 +21,11 @@
     for (var i = 0; i < invisibles.length; i++) {
       invisibles[i].classList.remove('elementor-invisible');
     }
+    // Pastikan foto-foto dan elemen animasi tidak tersangkut di opacity 0
+    var fxElements = document.querySelectorAll('.fx-scale-in, .fx-scale-out, .fx-rise, .fx-rise-down');
+    for (var j = 0; j < fxElements.length; j++) {
+      fxElements[j].classList.add('active');
+    }
   }
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', revealAllContent);
@@ -497,6 +502,30 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       song.pause();
     }
+  });
+
+  // 5b. Lightbox Galeri Foto Modern
+  document.querySelectorAll('[data-lightbox="gallery"], .elementor-gallery-item').forEach(function (item) {
+    item.addEventListener('click', function (e) {
+      e.preventDefault();
+      var img = this.querySelector('img');
+      var href = this.getAttribute('href') || (img ? img.src : '');
+      if (!href) return;
+      if (window.Swal) {
+        Swal.fire({
+          imageUrl: href,
+          imageAlt: 'Foto Galeri Andri & Dina',
+          showConfirmButton: false,
+          showCloseButton: true,
+          background: 'rgba(20, 15, 10, 0.95)',
+          backdrop: 'rgba(0, 0, 0, 0.85)',
+          padding: '12px',
+          customClass: {
+            popup: 'gallery-lightbox-modal'
+          }
+        });
+      }
+    });
   });
 
   // 6. Konfirmasi Hadiah WhatsApp (.wa-box)
