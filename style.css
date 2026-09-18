@@ -3436,10 +3436,35 @@ body.cover-locked {
   margin: 10px auto !important;
 }
 
-/* Fallback background image for countdown slideshow section */
-.elementor-element.elementor-element-36596cb5 {
-  background-image: url("images/photo6.jpg") !important;
+/* Countdown slideshow section (Above Save The Date) */
+.elementor-element.elementor-element-36596cb5,
+.elementor-element-36596cb5 {
+  background-image: url("images/photo7.jpg") !important;
   background-size: cover !important;
-  background-position: center center !important;
-  min-height: 350px !important;
+  background-position: center top !important;
+  min-height: 520px !important;
+  height: 65vh !important;
+  max-height: 650px !important;
+  position: relative !important;
+}
+
+.elementor-element-36596cb5 .elementor-background-slideshow,
+.elementor-element-36596cb5 .elementor-background-slideshow__slide,
+.elementor-element-36596cb5 .elementor-background-slideshow__slide__image {
+  background-position: center top !important;
+  background-size: cover !important;
+  height: 100% !important;
+}
+
+@media (max-width: 768px) {
+  .elementor-element.elementor-element-36596cb5,
+  .elementor-element-36596cb5 {
+    min-height: 480px !important;
+    height: 62vh !important;
+    background-position: center top !important;
+  }
+
+  .elementor-element-36596cb5 .elementor-background-slideshow__slide__image {
+    background-position: center top !important;
+  }
 }
