@@ -2293,25 +2293,39 @@ html {
   opacity: 1 !important;
 }
 
-#desk_covwt {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: calc(100% - 450px);
-  height: 100vh;
-  overflow: hidden;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: flex-start !important;
-  padding-top: 25px !important;
-  gap: 6px !important;
-  row-gap: 6px !important;
+@media (min-width: 901px) {
+  #desk_covwt {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: calc(100% - 450px);
+    height: 100vh;
+    overflow: hidden;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    padding-top: 25px !important;
+    gap: 6px !important;
+    row-gap: 6px !important;
+  }
+
+  #isiwt2 {
+    margin-left: calc(100% - 450px);
+    width: 450px;
+  }
 }
 
-#isiwt2 {
-  margin-left: calc(100% - 450px);
-  width: 450px;
+@media (max-width: 900px) {
+  #desk_covwt {
+    display: none !important;
+  }
+
+  #isiwt2 {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+  }
 }
 
 .elementor-element-desktop-monogram {
