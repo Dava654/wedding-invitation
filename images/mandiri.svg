@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 70" width="240" height="70">
+  <defs>
+    <linearGradient id="goldRibbon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdb913"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <!-- Text 'mandiri' in official dark blue #003d79 -->
+  <text x="12" y="48" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="42" fill="#003d79" letter-spacing="-1.5">mandıri</text>
+  <!-- Yellow/Gold Ribbon accent above i -->
+  <path d="M192,20 C198,12 214,10 228,14 C218,18 208,25 204,33 C199,28 195,24 192,20 Z" fill="url(#goldRibbon)"/>
+  <path d="M182,30 C190,22 208,20 224,24 C212,30 200,38 196,48 C190,40 185,35 182,30 Z" fill="#fdb913" opacity="0.9"/>
+</svg>

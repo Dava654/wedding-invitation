@@ -1,0 +1,3259 @@
+/* ==========================================================================
+   Font Definitions & Universal Aliases (Local Google Fonts WOFF2)
+   ========================================================================== */
+@font-face {
+  font-family: 'cormorant-infant';
+  src: url('fonts/cormorant-infant-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'cormorant-infant';
+  src: url('fonts/cormorant-infant-italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'cormorant-infant';
+  src: url('fonts/cormorant-infant-600.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant Infant';
+  src: url('fonts/cormorant-infant-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant Infant';
+  src: url('fonts/cormorant-infant-italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant Infant';
+  src: url('fonts/cormorant-infant-600.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'playfair-display';
+  src: url('fonts/playfair-display-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'playfair-display';
+  src: url('fonts/playfair-display-600.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('fonts/playfair-display-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('fonts/playfair-display-600.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('fonts/poppins-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('fonts/poppins-500.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('fonts/poppins-600.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('fonts/poppins-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('fonts/poppins-500.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('fonts/poppins-600.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'pinyon-script';
+  src: url('fonts/pinyon-script.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pinyon Script';
+  src: url('fonts/pinyon-script.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'alex-brush';
+  src: url('fonts/alex-brush.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alex Brush';
+  src: url('fonts/alex-brush.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'gardena-holmes';
+  src: url('fonts/gardena.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Secondary aliases for other WordPress theme presets */
+@font-face {
+  font-family: 'alice';
+  src: url('fonts/cormorant-infant-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ragna';
+  src: url('fonts/playfair-display-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'the-signature';
+  src: url('fonts/pinyon-script.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'monsieurladoulaise';
+  src: url('fonts/pinyon-script.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'honey-carrot';
+  src: url('fonts/playfair-display-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'analogue';
+  src: url('fonts/poppins-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'banteng-story';
+  src: url('fonts/poppins-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'high-summit';
+  src: url('fonts/poppins-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'bailenson';
+  src: url('fonts/playfair-display-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'bidena';
+  src: url('fonts/playfair-display-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.cormorant-infant {
+  font-family: 'cormorant-infant', 'Playfair Display', Georgia, serif !important;
+}
+
+.playfair-display {
+  font-family: 'playfair-display', Georgia, serif !important;
+}
+
+.pinyon-script {
+  font-family: 'pinyon-script', cursive !important;
+}
+
+.alex-brush {
+  font-family: 'alex-brush', cursive !important;
+}
+
+.poppins {
+  font-family: 'poppins', sans-serif !important;
+}
+
+.gardena-holmes {
+  font-family: 'gardena-holmes', 'Playfair Display', serif !important;
+}
+
+/* ==========================================================================
+   Bagian 1: id="wp-img-auto-sizes-contain-inline-css"
+   ========================================================================== */
+img:is([sizes=auto i], [sizes^="auto," i]) {
+  contain-intrinsic-size: 3000px 1500px
+}
+
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+
+/* ==========================================================================
+   Bagian 2: id="wp-emoji-styles-inline-css"
+   ========================================================================== */
+img.wp-smiley,
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 0.07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
+}
+
+/*# sourceURL=wp-emoji-styles-inline-css */
+
+/* ==========================================================================
+   Bagian 3: id="global-styles-inline-css"
+   ========================================================================== */
+:root {
+  --wp--preset--aspect-ratio--square: 1;
+  --wp--preset--aspect-ratio--4-3: 4/3;
+  --wp--preset--aspect-ratio--3-4: 3/4;
+  --wp--preset--aspect-ratio--3-2: 3/2;
+  --wp--preset--aspect-ratio--2-3: 2/3;
+  --wp--preset--aspect-ratio--16-9: 16/9;
+  --wp--preset--aspect-ratio--9-16: 9/16;
+  --wp--preset--color--black: #000000;
+  --wp--preset--color--cyan-bluish-gray: #abb8c3;
+  --wp--preset--color--white: #ffffff;
+  --wp--preset--color--pale-pink: #f78da7;
+  --wp--preset--color--vivid-red: #cf2e2e;
+  --wp--preset--color--luminous-vivid-orange: #ff6900;
+  --wp--preset--color--luminous-vivid-amber: #fcb900;
+  --wp--preset--color--light-green-cyan: #7bdcb5;
+  --wp--preset--color--vivid-green-cyan: #00d084;
+  --wp--preset--color--pale-cyan-blue: #8ed1fc;
+  --wp--preset--color--vivid-cyan-blue: #0693e3;
+  --wp--preset--color--vivid-purple: #9b51e0;
+  --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgb(6, 147, 227) 0%, rgb(155, 81, 224) 100%);
+  --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+  --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgb(252, 185, 0) 0%, rgb(255, 105, 0) 100%);
+  --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgb(255, 105, 0) 0%, rgb(207, 46, 46) 100%);
+  --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+  --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+  --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+  --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+  --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+  --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+  --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+  --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+  --wp--preset--font-size--small: 13px;
+  --wp--preset--font-size--medium: 20px;
+  --wp--preset--font-size--large: 36px;
+  --wp--preset--font-size--x-large: 42px;
+  --wp--preset--font-family--honey-carrot: honey-carrot;
+  --wp--preset--font-family--analogue: analogue;
+  --wp--preset--font-family--banteng-story: banteng-story;
+  --wp--preset--font-family--high-summit: high-summit;
+  --wp--preset--font-family--the-signature: the-signature;
+  --wp--preset--font-family--monsieurladoulaise: monsieurladoulaise;
+  --wp--preset--font-family--playfair-display: playfair-display;
+  --wp--preset--font-family--cormorant-infant: cormorant-infant;
+  --wp--preset--font-family--alex-brush: alex-brush;
+  --wp--preset--font-family--poppins: poppins;
+  --wp--preset--font-family--alice: alice;
+  --wp--preset--font-family--ragna: ragna;
+  --wp--preset--font-family--pinyon-script: pinyon-script;
+  --wp--preset--font-family--gardena-holmes: gardena-holmes;
+  --wp--preset--font-family--bailenson: bailenson;
+  --wp--preset--font-family--bidena: bidena;
+  --wp--preset--spacing--20: 0.44rem;
+  --wp--preset--spacing--30: 0.67rem;
+  --wp--preset--spacing--40: 1rem;
+  --wp--preset--spacing--50: 1.5rem;
+  --wp--preset--spacing--60: 2.25rem;
+  --wp--preset--spacing--70: 3.38rem;
+  --wp--preset--spacing--80: 5.06rem;
+  --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+  --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+  --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+  --wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);
+  --wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);
+}
+
+:root {
+  --wp--style--global--content-size: 800px;
+  --wp--style--global--wide-size: 1200px;
+}
+
+:where(body) {
+  margin: 0;
+}
+
+.wp-site-blocks>.alignleft {
+  float: left;
+  margin-right: 2em;
+}
+
+.wp-site-blocks>.alignright {
+  float: right;
+  margin-left: 2em;
+}
+
+.wp-site-blocks>.aligncenter {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:where(.wp-site-blocks)>* {
+  margin-block-start: 24px;
+  margin-block-end: 0;
+}
+
+:where(.wp-site-blocks)> :first-child {
+  margin-block-start: 0;
+}
+
+:where(.wp-site-blocks)> :last-child {
+  margin-block-end: 0;
+}
+
+:root {
+  --wp--style--block-gap: 24px;
+}
+
+:root :where(.is-layout-flow)> :first-child {
+  margin-block-start: 0;
+}
+
+:root :where(.is-layout-flow)> :last-child {
+  margin-block-end: 0;
+}
+
+:root :where(.is-layout-flow)>* {
+  margin-block-start: 24px;
+  margin-block-end: 0;
+}
+
+:root :where(.is-layout-constrained)> :first-child {
+  margin-block-start: 0;
+}
+
+:root :where(.is-layout-constrained)> :last-child {
+  margin-block-end: 0;
+}
+
+:root :where(.is-layout-constrained)>* {
+  margin-block-start: 24px;
+  margin-block-end: 0;
+}
+
+:root :where(.is-layout-flex) {
+  gap: 24px;
+}
+
+:root :where(.is-layout-grid) {
+  gap: 24px;
+}
+
+.is-layout-flow>.alignleft {
+  float: left;
+  margin-inline-start: 0;
+  margin-inline-end: 2em;
+}
+
+.is-layout-flow>.alignright {
+  float: right;
+  margin-inline-start: 2em;
+  margin-inline-end: 0;
+}
+
+.is-layout-flow>.aligncenter {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.is-layout-constrained>.alignleft {
+  float: left;
+  margin-inline-start: 0;
+  margin-inline-end: 2em;
+}
+
+.is-layout-constrained>.alignright {
+  float: right;
+  margin-inline-start: 2em;
+  margin-inline-end: 0;
+}
+
+.is-layout-constrained>.aligncenter {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+  max-width: var(--wp--style--global--content-size);
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.is-layout-constrained>.alignwide {
+  max-width: var(--wp--style--global--wide-size);
+}
+
+body .is-layout-flex {
+  display: flex;
+}
+
+.is-layout-flex {
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.is-layout-flex> :is(*, div) {
+  margin: 0;
+}
+
+body .is-layout-grid {
+  display: grid;
+}
+
+.is-layout-grid> :is(*, div) {
+  margin: 0;
+}
+
+body {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+:root :where(.wp-element-button, .wp-block-button__link) {
+  background-color: #32373c;
+  border-width: 0;
+  color: #fff;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  padding-top: calc(0.667em + 2px);
+  padding-right: calc(1.333em + 2px);
+  padding-bottom: calc(0.667em + 2px);
+  padding-left: calc(1.333em + 2px);
+  text-decoration: none;
+  text-transform: inherit;
+}
+
+.has-black-color {
+  color: var(--wp--preset--color--black) !important;
+}
+
+.has-cyan-bluish-gray-color {
+  color: var(--wp--preset--color--cyan-bluish-gray) !important;
+}
+
+.has-white-color {
+  color: var(--wp--preset--color--white) !important;
+}
+
+.has-pale-pink-color {
+  color: var(--wp--preset--color--pale-pink) !important;
+}
+
+.has-vivid-red-color {
+  color: var(--wp--preset--color--vivid-red) !important;
+}
+
+.has-luminous-vivid-orange-color {
+  color: var(--wp--preset--color--luminous-vivid-orange) !important;
+}
+
+.has-luminous-vivid-amber-color {
+  color: var(--wp--preset--color--luminous-vivid-amber) !important;
+}
+
+.has-light-green-cyan-color {
+  color: var(--wp--preset--color--light-green-cyan) !important;
+}
+
+.has-vivid-green-cyan-color {
+  color: var(--wp--preset--color--vivid-green-cyan) !important;
+}
+
+.has-pale-cyan-blue-color {
+  color: var(--wp--preset--color--pale-cyan-blue) !important;
+}
+
+.has-vivid-cyan-blue-color {
+  color: var(--wp--preset--color--vivid-cyan-blue) !important;
+}
+
+.has-vivid-purple-color {
+  color: var(--wp--preset--color--vivid-purple) !important;
+}
+
+.has-black-background-color {
+  background-color: var(--wp--preset--color--black) !important;
+}
+
+.has-cyan-bluish-gray-background-color {
+  background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+}
+
+.has-white-background-color {
+  background-color: var(--wp--preset--color--white) !important;
+}
+
+.has-pale-pink-background-color {
+  background-color: var(--wp--preset--color--pale-pink) !important;
+}
+
+.has-vivid-red-background-color {
+  background-color: var(--wp--preset--color--vivid-red) !important;
+}
+
+.has-luminous-vivid-orange-background-color {
+  background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+}
+
+.has-luminous-vivid-amber-background-color {
+  background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+}
+
+.has-light-green-cyan-background-color {
+  background-color: var(--wp--preset--color--light-green-cyan) !important;
+}
+
+.has-vivid-green-cyan-background-color {
+  background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+}
+
+.has-pale-cyan-blue-background-color {
+  background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+}
+
+.has-vivid-cyan-blue-background-color {
+  background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+}
+
+.has-vivid-purple-background-color {
+  background-color: var(--wp--preset--color--vivid-purple) !important;
+}
+
+.has-black-border-color {
+  border-color: var(--wp--preset--color--black) !important;
+}
+
+.has-cyan-bluish-gray-border-color {
+  border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+}
+
+.has-white-border-color {
+  border-color: var(--wp--preset--color--white) !important;
+}
+
+.has-pale-pink-border-color {
+  border-color: var(--wp--preset--color--pale-pink) !important;
+}
+
+.has-vivid-red-border-color {
+  border-color: var(--wp--preset--color--vivid-red) !important;
+}
+
+.has-luminous-vivid-orange-border-color {
+  border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+}
+
+.has-luminous-vivid-amber-border-color {
+  border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+}
+
+.has-light-green-cyan-border-color {
+  border-color: var(--wp--preset--color--light-green-cyan) !important;
+}
+
+.has-vivid-green-cyan-border-color {
+  border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+}
+
+.has-pale-cyan-blue-border-color {
+  border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+}
+
+.has-vivid-cyan-blue-border-color {
+  border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+}
+
+.has-vivid-purple-border-color {
+  border-color: var(--wp--preset--color--vivid-purple) !important;
+}
+
+.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+  background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+}
+
+.has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+  background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+}
+
+.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+  background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+}
+
+.has-luminous-vivid-orange-to-vivid-red-gradient-background {
+  background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+}
+
+.has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+  background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+}
+
+.has-cool-to-warm-spectrum-gradient-background {
+  background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+}
+
+.has-blush-light-purple-gradient-background {
+  background: var(--wp--preset--gradient--blush-light-purple) !important;
+}
+
+.has-blush-bordeaux-gradient-background {
+  background: var(--wp--preset--gradient--blush-bordeaux) !important;
+}
+
+.has-luminous-dusk-gradient-background {
+  background: var(--wp--preset--gradient--luminous-dusk) !important;
+}
+
+.has-pale-ocean-gradient-background {
+  background: var(--wp--preset--gradient--pale-ocean) !important;
+}
+
+.has-electric-grass-gradient-background {
+  background: var(--wp--preset--gradient--electric-grass) !important;
+}
+
+.has-midnight-gradient-background {
+  background: var(--wp--preset--gradient--midnight) !important;
+}
+
+.has-small-font-size {
+  font-size: var(--wp--preset--font-size--small) !important;
+}
+
+.has-medium-font-size {
+  font-size: var(--wp--preset--font-size--medium) !important;
+}
+
+.has-large-font-size {
+  font-size: var(--wp--preset--font-size--large) !important;
+}
+
+.has-x-large-font-size {
+  font-size: var(--wp--preset--font-size--x-large) !important;
+}
+
+.has-honey-carrot-font-family {
+  font-family: var(--wp--preset--font-family--honey-carrot) !important;
+}
+
+.has-analogue-font-family {
+  font-family: var(--wp--preset--font-family--analogue) !important;
+}
+
+.has-banteng-story-font-family {
+  font-family: var(--wp--preset--font-family--banteng-story) !important;
+}
+
+.has-high-summit-font-family {
+  font-family: var(--wp--preset--font-family--high-summit) !important;
+}
+
+.has-the-signature-font-family {
+  font-family: var(--wp--preset--font-family--the-signature) !important;
+}
+
+.has-monsieurladoulaise-font-family {
+  font-family: var(--wp--preset--font-family--monsieurladoulaise) !important;
+}
+
+.has-playfair-display-font-family {
+  font-family: var(--wp--preset--font-family--playfair-display) !important;
+}
+
+.has-cormorant-infant-font-family {
+  font-family: var(--wp--preset--font-family--cormorant-infant) !important;
+}
+
+.has-alex-brush-font-family {
+  font-family: var(--wp--preset--font-family--alex-brush) !important;
+}
+
+.has-poppins-font-family {
+  font-family: var(--wp--preset--font-family--poppins) !important;
+}
+
+.has-alice-font-family {
+  font-family: var(--wp--preset--font-family--alice) !important;
+}
+
+.has-ragna-font-family {
+  font-family: var(--wp--preset--font-family--ragna) !important;
+}
+
+.has-pinyon-script-font-family {
+  font-family: var(--wp--preset--font-family--pinyon-script) !important;
+}
+
+.has-gardena-holmes-font-family {
+  font-family: var(--wp--preset--font-family--gardena-holmes) !important;
+}
+
+.has-bailenson-font-family {
+  font-family: var(--wp--preset--font-family--bailenson) !important;
+}
+
+.has-bidena-font-family {
+  font-family: var(--wp--preset--font-family--bidena) !important;
+}
+
+:root :where(.wp-block-icon svg) {
+  width: 24px;
+}
+
+:root :where(.wp-block-pullquote) {
+  font-size: 1.5em;
+  line-height: 1.6;
+}
+
+/*# sourceURL=global-styles-inline-css */
+
+/* ==========================================================================
+   Bagian 4: id="elementor-frontend-inline-css"
+   ========================================================================== */
+.elementor-57580 .elementor-element.elementor-element-1a75f6d2::before,
+.elementor-57580 .elementor-element.elementor-element-1a75f6d2>.elementor-background-video-container::before,
+.elementor-57580 .elementor-element.elementor-element-1a75f6d2>.e-con-inner>.elementor-background-video-container::before,
+.elementor-57580 .elementor-element.elementor-element-1a75f6d2>.elementor-background-slideshow::before,
+.elementor-57580 .elementor-element.elementor-element-1a75f6d2>.e-con-inner>.elementor-background-slideshow::before,
+.elementor-57580 .elementor-element.elementor-element-1a75f6d2>.elementor-motion-effects-container>.elementor-motion-effects-layer::before,
+.elementor-element.elementor-element-1a75f6d2::before,
+.elementor-element.elementor-element-1a75f6d2 {
+  background-image: url("images/photo7.jpg") !important;
+}
+
+/*# sourceURL=elementor-frontend-inline-css */
+
+/* ==========================================================================
+   Bagian 5: id="jet-form-builder-honeypot-inline-css"
+   ========================================================================== */
+.jfb-user-info,
+.jfb-user-info input {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  pointer-events: none !important;
+}
+
+/*# sourceURL=jet-form-builder-honeypot-inline-css */
+
+/* ==========================================================================
+   Bagian 6
+   ========================================================================== */
+.fix-bg {
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: scroll !important;
+}
+
+.fix-bg::before {
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: scroll !important;
+}
+
+/* ==========================================================================
+   Bagian 7
+   ========================================================================== */
+.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+  background-image: none !important;
+}
+
+@media screen and (max-height: 1024px) {
+
+  .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+  .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+    background-image: none !important;
+  }
+}
+
+@media screen and (max-height: 640px) {
+
+  .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+  .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+    background-image: none !important;
+  }
+}
+
+/* ==========================================================================
+   Bagian 8
+   ========================================================================== */
+/* 1. Sembunyikan visual loader sepenuhnya secara instan */
+#apxPageLoader {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  z-index: -9999 !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* 2. Cegah layar terkunci (tidak bisa di-scroll) 
+     Menggunakan selektor spesifik agar menang dari !important milik script asli */
+html body.apx-lock,
+body.apx-lock {
+  overflow: auto !important;
+  overflow-x: hidden !important;
+}
+
+/* ==========================================================================
+   Bagian 10
+   ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+#apxPageLoader {
+  --apx-font-initial: 'Cormorant Garamond', serif;
+  --apx-font-text: 'Ubuntu', sans-serif;
+  --apx-veil-bg: #485354;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  z-index: 999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+.apx-veil {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+  background: var(--apx-veil-bg, #000);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.apx-loader-inner {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 0 24px;
+  text-align: center;
+  font-family: var(--apx-font-text);
+  will-change: transform, filter, opacity;
+}
+
+.apx-loader-small {
+  font-family: var(--apx-font-text);
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  color: rgba(255, 255, 255, .75);
+  opacity: 0;
+  animation: apxWeddingText 2.1s cubic-bezier(.33, 1, .68, 1) forwards;
+}
+
+@keyframes apxWeddingText {
+  0% {
+    opacity: 0;
+    filter: blur(8px);
+    letter-spacing: 8px;
+    transform: translateY(8px);
+  }
+
+  30% {
+    opacity: .88;
+    filter: blur(0);
+    letter-spacing: 3px;
+    transform: translateY(0);
+  }
+
+  70% {
+    opacity: .88;
+    filter: blur(0);
+    letter-spacing: 3px;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    filter: blur(6px);
+    letter-spacing: 6px;
+    transform: translateY(-8px);
+  }
+}
+
+.apx-loader-final {
+  width: 100%;
+  opacity: 0;
+  animation: apxFinalIn .6s ease 1.9s forwards;
+}
+
+@keyframes apxFinalIn {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.apx-loader-mask {
+  overflow: hidden;
+  padding: 12px 0 6px;
+  line-height: 1;
+}
+
+.apx-loader-initial {
+  font-family: var(--apx-font-initial);
+  font-size: 130px;
+  font-weight: 300;
+  line-height: .95;
+  letter-spacing: 2px;
+  color: #fff;
+  transform: translateY(110%) scale(1.12);
+  opacity: 0;
+  animation: apxInitialUp 1.8s cubic-bezier(.16, 1, .3, 1) 2.05s forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apx-loader-img-custom {
+  max-width: 140px;
+  max-height: 140px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  /* Diubah ke cover agar lengkungan border terlihat rapi */
+  margin: 0 auto;
+  border-radius: 5px;
+  /* KODE BARU: Membuat sudut melengkung 5px */
+  overflow: hidden;
+  /* KODE BARU: Memastikan sudut gambar terpotong rapi */
+}
+
+@keyframes apxInitialUp {
+  0% {
+    transform: translateY(110%) scale(1.12);
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.apx-loader-rule {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 18px auto 16px;
+}
+
+.apx-rule-line {
+  display: block;
+  width: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .6), transparent);
+  animation: apxRuleGrow 1.4s cubic-bezier(.16, 1, .3, 1) 2.9s forwards;
+}
+
+.apx-rule-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0;
+  transform: scale(0) rotate(45deg);
+  animation: apxDotIn .8s cubic-bezier(.34, 1.56, .64, 1) 2.85s forwards;
+}
+
+@keyframes apxRuleGrow {
+  to {
+    width: 56px;
+  }
+}
+
+@keyframes apxDotIn {
+  to {
+    opacity: .9;
+    transform: scale(1) rotate(45deg);
+  }
+}
+
+.apx-loader-name {
+  font-family: var(--apx-font-text);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, .92);
+  opacity: 0;
+  animation: apxNameIn 1.6s cubic-bezier(.16, 1, .3, 1) 3.2s forwards;
+}
+
+@keyframes apxNameIn {
+  0% {
+    opacity: 0;
+    filter: blur(8px);
+    letter-spacing: 0px;
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    filter: blur(0);
+    letter-spacing: 2px;
+    transform: translateY(0);
+  }
+}
+
+.apx-loader-bar {
+  margin-top: 44px;
+  width: 120px;
+  height: 1px;
+  background: rgba(255, 255, 255, .14);
+  overflow: hidden;
+}
+
+.apx-loader-bar i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, .85);
+  transform: scaleX(0);
+  transform-origin: left center;
+  animation: apxBar 5s cubic-bezier(.4, 0, .2, 1) forwards;
+}
+
+@keyframes apxBar {
+  0% {
+    transform: scaleX(0);
+  }
+
+  55% {
+    transform: scaleX(.7);
+  }
+
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+@media(max-width: 767px) {
+  .apx-loader-initial {
+    font-size: 92px;
+  }
+
+  .apx-loader-img-custom {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .apx-loader-small {
+    font-size: 13px;
+    letter-spacing: 2.5px;
+  }
+
+  .apx-loader-name {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+  }
+
+  .apx-loader-bar {
+    margin-top: 36px;
+    width: 100px;
+  }
+}
+
+body.apx-lock {
+  overflow: hidden !important;
+}
+
+/* ==========================================================================
+   Bagian 11: id="elementor-post-dynamic-41459"
+   ========================================================================== */
+.elementor-41459 .elementor-element.elementor-element-6c403ba4 a.elementor-button,
+.elementor-41459 .elementor-element.elementor-element-6c403ba4 .elementor-button {
+  background-color: #CAAA68;
+}
+
+.elementor-41459 .elementor-element.elementor-element-2b242f3a a.elementor-button,
+.elementor-41459 .elementor-element.elementor-element-2b242f3a .elementor-button {
+  background-color: #CAAA68;
+}
+
+.elementor-41459 .elementor-element.elementor-element-2a6efb22 a.elementor-button,
+.elementor-41459 .elementor-element.elementor-element-2a6efb22 .elementor-button {
+  background-color: #CAAA68;
+}
+
+.elementor-41459 .elementor-element.elementor-element-10d6045e a.elementor-button,
+.elementor-41459 .elementor-element.elementor-element-10d6045e .elementor-button {
+  background-color: #CAAA68;
+}
+
+.elementor-41459 .elementor-element.elementor-element-59159d02 a.elementor-button,
+.elementor-41459 .elementor-element.elementor-element-59159d02 .elementor-button {
+  background-color: #CAAA68;
+}
+
+.elementor-41459 .elementor-element.elementor-element-3f46d0ba a.elementor-button,
+.elementor-41459 .elementor-element.elementor-element-3f46d0ba .elementor-button {
+  background-color: #CAAA68;
+}
+
+.elementor-41459 .elementor-element.elementor-element-e779f72.elementor-view-stacked .elementor-icon {
+  background-color: #CAAA68;
+}
+
+.elementor-41459 .elementor-element.elementor-element-e779f72.elementor-view-framed .elementor-icon,
+.elementor-41459 .elementor-element.elementor-element-e779f72.elementor-view-default .elementor-icon {
+  color: #CAAA68;
+  border-color: #CAAA68;
+}
+
+.elementor-41459 .elementor-element.elementor-element-e779f72.elementor-view-framed .elementor-icon,
+.elementor-41459 .elementor-element.elementor-element-e779f72.elementor-view-default .elementor-icon svg {
+  fill: #CAAA68;
+}
+
+.elementor-41459 .elementor-element.elementor-element-d6576bf .elementor-button {
+  background-color: #CAAA68;
+}
+
+.elementor-41459 .elementor-element.elementor-element-52881927.elementor-view-stacked .elementor-icon {
+  background-color: #CAAA68;
+}
+
+.elementor-41459 .elementor-element.elementor-element-52881927.elementor-view-framed .elementor-icon,
+.elementor-41459 .elementor-element.elementor-element-52881927.elementor-view-default .elementor-icon {
+  color: #CAAA68;
+  border-color: #CAAA68;
+}
+
+.elementor-41459 .elementor-element.elementor-element-52881927.elementor-view-framed .elementor-icon,
+.elementor-41459 .elementor-element.elementor-element-52881927.elementor-view-default .elementor-icon svg {
+  fill: #CAAA68;
+}
+
+.elementor-41459 .elementor-element.elementor-element-4833e8bd a.elementor-button,
+.elementor-41459 .elementor-element.elementor-element-4833e8bd .elementor-button {
+  background-color: #CAAA68;
+}
+
+.elementor-41459 .elementor-element.elementor-element-5de3f878.elementor-view-stacked .elementor-icon {
+  background-color: #CAAA68;
+}
+
+.elementor-41459 .elementor-element.elementor-element-5de3f878.elementor-view-framed .elementor-icon,
+.elementor-41459 .elementor-element.elementor-element-5de3f878.elementor-view-default .elementor-icon {
+  color: #CAAA68;
+  border-color: #CAAA68;
+}
+
+.elementor-41459 .elementor-element.elementor-element-5de3f878.elementor-view-framed .elementor-icon,
+.elementor-41459 .elementor-element.elementor-element-5de3f878.elementor-view-default .elementor-icon svg {
+  fill: #CAAA68;
+}
+
+.elementor-41459 .elementor-element.elementor-element-2ff55652 a.elementor-button,
+.elementor-41459 .elementor-element.elementor-element-2ff55652 .elementor-button {
+  background-color: #CAAA68;
+}
+
+/* ==========================================================================
+   Bagian 12
+   ========================================================================== */
+.wa-konfirmasi {
+  width: 100%;
+  background: transparent;
+}
+
+.wa-box {
+  margin-bottom: 20px;
+}
+
+.wa-box label {
+  display: block;
+  margin: 0 0 6px;
+  font-size: 12px;
+  color: #000;
+  font-weight: 600;
+}
+
+.wa-box input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 6px;
+  font-size: 12px;
+  outline: none;
+}
+
+.wa-box input:focus {
+  border-color: #CAAA68;
+}
+
+.btn-wa {
+  width: 100%;
+  padding: 10px;
+  background: #CAAA68;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: .2s;
+}
+
+.btn-wa:hover {
+  background: #CAAA68;
+  opacity: .9;
+}
+
+/* ==========================================================================
+   Bagian 13
+   ========================================================================== */
+.saic-comment-content {
+  margin-left: 0 !important;
+}
+
+.saic-comment-avatar {
+  display: none !important;
+}
+
+/* ==========================================================================
+   Bagian 14
+   ========================================================================== */
+/* Styling eltemplate & layout responsif */
+#desk_cov {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: calc(100% - 500px);
+  height: 100vh;
+  overflow: hidden;
+}
+
+#isi {
+  margin-left: calc(100% - 500px);
+  width: 500px;
+}
+
+.ajaibfixed .elementor-background-overlay,
+.ajaibfixedC .elementor-background-overlay,
+.ajaibfixedC::before {
+  position: fixed !important;
+  top: 0 !important;
+  left: calc(100% - 500px) !important;
+  width: 500px !important;
+  pointer-events: none;
+}
+
+@media (max-width: 500px) {
+  #desk_cov {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) and (min-width: 768px) {
+  #desk_cov {
+    width: 50%;
+  }
+
+  #isi {
+    margin-left: 50%;
+    width: 50%;
+  }
+
+  .ajaibfixed .elementor-background-overlay,
+  .ajaibfixedC .elementor-background-overlay,
+  .ajaibfixedC::before {
+    left: 50% !important;
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #desk_cov {
+    display: none;
+  }
+
+  #isi {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .ajaibfixed .elementor-background-overlay,
+  .ajaibfixedC .elementor-background-overlay,
+  .ajaibfixedC::before {
+    left: 0 !important;
+    width: 100% !important;
+  }
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+html {
+  scroll-behavior: auto !important;
+}
+
+@media (min-width: 990px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }
+}
+
+#eltemplate-amplop {
+  display: none;
+}
+
+#eltemplate-btnCover,
+#eltemplate-btnAmplop {
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   Bagian 15
+   ========================================================================== */
+/* ==========================================
+       PENGATURAN POSISI & EFEK MUNCUL (SHOW)
+       ========================================== */
+.asw-wrap {
+  position: fixed;
+  bottom: 115px;
+  right: 15px;
+  display: none;
+  flex-direction: column;
+  align-items: end;
+  gap: 8px;
+  user-select: none;
+  z-index: 9998;
+
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px);
+  transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.asw-wrap.show-widget {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+#asw-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+  margin-bottom: -10px;
+  border-radius: 40px;
+}
+
+#asw-panel.open {
+  max-height: 400px;
+  opacity: 1;
+  pointer-events: auto;
+  margin-bottom: 4px;
+}
+
+#asw-body {
+  box-sizing: border-box;
+  border-radius: 40px;
+  padding: 14px 8px 18px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.asw-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s;
+  padding: 0;
+  border: none;
+}
+
+.asw-btn:hover {
+  transform: scale(1.05);
+}
+
+.asw-btn:active {
+  transform: scale(0.95);
+}
+
+#asw-slider-track {
+  width: 3px;
+  height: 60px;
+  border-radius: 2px;
+  position: relative;
+  margin: 4px 0;
+}
+
+#asw-slider-fill {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 2px;
+}
+
+#asw-slider-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+  cursor: ns-resize;
+  touch-action: none;
+  border: none;
+}
+
+#asw-speed-badge {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 12px;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+  margin-bottom: 2px;
+}
+
+#asw-trigger-wrap {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+#asw-progress-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+  pointer-events: none;
+}
+
+#asw-ring-track {
+  fill: none;
+  stroke-width: 2;
+}
+
+#asw-ring-fill {
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.1s;
+}
+
+#asw-btn-trigger {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.2s;
+  padding: 0;
+}
+
+#asw-btn-trigger:hover {
+  transform: scale(1.05);
+}
+
+#asw-btn-trigger:active {
+  transform: scale(0.95);
+}
+
+#asw-indicator {
+  position: fixed;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%) translateY(16px);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 24px;
+  padding: 6px 14px 6px 10px;
+  white-space: nowrap;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  z-index: 9999;
+  pointer-events: none;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+#asw-indicator.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+#asw-indicator.hide {
+  opacity: 0;
+  transform: translateX(-50%) translateY(16px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.asw-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+  animation: asw-pulse 2s ease-in-out infinite;
+}
+
+.asw-ind-text {
+  font-size: 11px;
+  font-family: sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+
+@keyframes asw-pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.4;
+    transform: scale(0.75);
+  }
+}
+
+/* ==========================================
+       PENGATURAN POSISI & EFEK MUNCUL (SHOW)
+       ========================================== */
+.asw-wrap {
+  position: fixed;
+  bottom: 115px;
+  right: 15px;
+  display: none;
+  flex-direction: column;
+  align-items: end;
+  gap: 8px;
+  user-select: none;
+  z-index: 9998;
+
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px);
+  transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.asw-wrap.show-widget {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+#asw-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+  margin-bottom: -10px;
+  border-radius: 40px;
+}
+
+#asw-panel.open {
+  max-height: 400px;
+  opacity: 1;
+  pointer-events: auto;
+  margin-bottom: 4px;
+}
+
+#asw-body {
+  box-sizing: border-box;
+  border-radius: 40px;
+  padding: 14px 8px 18px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.asw-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s;
+  padding: 0;
+  border: none;
+}
+
+.asw-btn:hover {
+  transform: scale(1.05);
+}
+
+.asw-btn:active {
+  transform: scale(0.95);
+}
+
+#asw-slider-track {
+  width: 3px;
+  height: 60px;
+  border-radius: 2px;
+  position: relative;
+  margin: 4px 0;
+}
+
+#asw-slider-fill {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 2px;
+}
+
+#asw-slider-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+  cursor: ns-resize;
+  touch-action: none;
+  border: none;
+}
+
+#asw-speed-badge {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 12px;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+  margin-bottom: 2px;
+}
+
+#asw-trigger-wrap {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+#asw-progress-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+  pointer-events: none;
+}
+
+#asw-ring-track {
+  fill: none;
+  stroke-width: 2;
+}
+
+#asw-ring-fill {
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.1s;
+}
+
+#asw-btn-trigger {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.2s;
+  padding: 0;
+}
+
+#asw-btn-trigger:hover {
+  transform: scale(1.05);
+}
+
+#asw-btn-trigger:active {
+  transform: scale(0.95);
+}
+
+#asw-indicator {
+  position: fixed;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%) translateY(16px);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 24px;
+  padding: 6px 14px 6px 10px;
+  white-space: nowrap;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  z-index: 9999;
+  pointer-events: none;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+#asw-indicator.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+#asw-indicator.hide {
+  opacity: 0;
+  transform: translateX(-50%) translateY(16px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.asw-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+  animation: asw-pulse 2s ease-in-out infinite;
+}
+
+.asw-ind-text {
+  font-size: 11px;
+  font-family: sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+
+@keyframes asw-pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.4;
+    transform: scale(0.75);
+  }
+}
+
+
+/* ==========================================
+       WARNA DOUBLE DECLARATION (ANTI-TRANSPARAN)
+       ========================================== */
+
+/* 1. SEMUA ELEMEN GELAP (BACKGROUND 1 WARNA) */
+#asw-body,
+.asw-btn,
+#asw-slider-track,
+#asw-speed-badge,
+#asw-btn-trigger,
+#asw-indicator {
+  background: #000000 !important;
+}
+
+#asw-ring-track {
+  stroke: #000000 !important;
+}
+
+/* 2. SEMUA ELEMEN TERANG (TEKS, IKON, GARIS, TITIK 1 WARNA) */
+.asw-btn,
+#asw-speed-badge,
+#asw-btn-trigger,
+.asw-ind-text {
+  color: #FFFFFF !important;
+}
+
+#asw-slider-fill,
+#asw-slider-thumb,
+.asw-dot {
+  background: #FFFFFF !important;
+}
+
+#asw-ring-fill {
+  stroke: #FFFFFF !important;
+}
+
+/* ==========================================================================
+   Bagian 16
+   ========================================================================== */
+/* Fade kiri naik */
+.fx-rise-left {
+  position: relative;
+  transform: translateY(6rem) translateX(6rem) scale(1);
+  opacity: 0;
+  transition: opacity 1.2s ease, transform 2s ease;
+}
+
+.fx-rise-left.active {
+  transform: translateY(0) translateX(0);
+  opacity: 1;
+}
+
+/* Fade kanan naik */
+.fx-rise-right {
+  position: relative;
+  transform: translateY(6rem) translateX(-6rem) scale(1);
+  opacity: 0;
+  transition: opacity 1.2s ease, transform 2s ease;
+}
+
+.fx-rise-right.active {
+  transform: translateY(0) translateX(0);
+  opacity: 1;
+}
+
+/* Fade kiri turun */
+.fx-rise-down-left {
+  position: relative;
+  transform: translateY(-6rem) translateX(6rem) scale(1);
+  opacity: 0;
+  transition: opacity 1.2s ease, transform 2s ease;
+}
+
+.fx-rise-down-left.active {
+  transform: translateY(0) translateX(0);
+  opacity: 1;
+}
+
+/* Fade kanan turun */
+.fx-rise-down-right {
+  position: relative;
+  transform: translateY(-6rem) translateX(-6rem) scale(1);
+  transition: opacity 1.2s ease, transform 2s ease;
+}
+
+.fx-rise-down-right.active {
+  transform: translateY(0) translateX(0) scale(1);
+  opacity: 1;
+}
+
+/* Fade naik */
+.fx-rise-down {
+  position: relative;
+  transform: translateY(-3rem) scale(1);
+  opacity: 0;
+  transition: opacity 1.2s ease, transform 2.5s ease;
+}
+
+.fx-rise-down.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fx-rise {
+  position: relative;
+  transform: translateY(3rem) scale(1);
+  opacity: 0;
+  transition: opacity 1.2s ease, transform 2s ease;
+}
+
+.fx-rise.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Slide kiri */
+.fx-slide-left {
+  position: relative;
+  transform: translateX(-100%) scale(0.93);
+  opacity: 0;
+  transition: opacity 1.2s ease, transform 2s ease;
+}
+
+.fx-slide-left.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Slide kanan */
+.fx-slide-right {
+  position: relative;
+  transform: translateX(100%) scale(0.93);
+  opacity: 0;
+  transition: opacity 1.2s ease, transform 2s ease;
+}
+
+.fx-slide-right.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Zoom masuk */
+.fx-scale-in {
+  position: relative;
+  transform: scale(0.5);
+  opacity: 0;
+  transition: opacity 1.2s ease, transform 2s ease;
+}
+
+.fx-scale-in.active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Zoom keluar */
+.fx-scale-out {
+  position: relative;
+  transform: scale(1.5);
+  opacity: 0;
+  transition: opacity 1.2s ease, transform 2s ease;
+}
+
+.fx-scale-out.active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Putar kiri */
+.fx-rotate-in {
+  position: relative;
+  transform: translateY(-100%) translateX(-100%) rotate(-45deg);
+  transform-origin: left bottom;
+  opacity: 0;
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.fx-rotate-in.active {
+  transform: translateY(0) translateX(0) rotate(0deg);
+  opacity: 1;
+}
+
+/* Putar kanan */
+.fx-rotate-in-right {
+  position: relative;
+  transform: translateY(-100%) translateX(100%) rotate(45deg);
+  transform-origin: right bottom;
+  opacity: 0;
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.fx-rotate-in-right.active {
+  transform: translateY(0) translateX(0) rotate(0deg);
+  opacity: 1;
+}
+
+/* ==========================================================================
+   Bagian 17
+   ========================================================================== */
+/* Kelompok 1 - Sway Halus */
+.animate-r img {
+  animation: sway-right 9s ease-in-out infinite;
+  transform-origin: bottom left;
+}
+
+@keyframes sway-right {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(3deg);
+  }
+
+  50% {
+    transform: rotate(-3deg);
+  }
+
+  75% {
+    transform: rotate(3deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.animate-l img {
+  animation: sway-left 9s ease-in-out infinite;
+  transform-origin: bottom right;
+}
+
+@keyframes sway-left {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-3deg);
+  }
+
+  50% {
+    transform: rotate(3deg);
+  }
+
+  75% {
+    transform: rotate(-3deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Kelompok 2 - Sway Lebih Cepat */
+.animate-r2 img {
+  animation: sway-right-fast 5s ease-in-out infinite;
+  transform-origin: bottom left;
+}
+
+@keyframes sway-right-fast {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.animate-l2 img {
+  animation: sway-left-fast 5s ease-in-out infinite;
+  transform-origin: bottom right;
+}
+
+@keyframes sway-left-fast {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* ==========================================================================
+   Bagian 18
+   ========================================================================== */
+@media (min-width: 768px) {
+  #isiwt {
+    margin-left: calc(100% - 450px);
+    width: 450px;
+  }
+}
+
+@media (min-width: 768px) {
+  #coverdesktopwt {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: calc(100% - 450px);
+    height: 100vh;
+    overflow: hidden;
+  }
+}
+
+#desk_cov {
+  width: calc(100% - 450px);
+}
+
+#isi {
+  margin-left: calc(100% - 450px);
+  width: 450px;
+}
+
+
+
+.ajaibfixed .elementor-background-overlay {
+  left: calc(100% - 450px) !important;
+  width: 450px !important;
+}
+
+.ajaibfixedC .elementor-background-overlay,
+.ajaibfixedC::before {
+  left: calc(100% - 450px) !important;
+  width: 450px !important;
+}
+
+#desk_covwt .elementor-invisible {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+#desk_covwt {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: calc(100% - 450px);
+  height: 100vh;
+  overflow: hidden;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  padding-top: 25px !important;
+  gap: 6px !important;
+  row-gap: 6px !important;
+}
+
+#isiwt2 {
+  margin-left: calc(100% - 450px);
+  width: 450px;
+}
+
+.elementor-element-desktop-monogram {
+  margin: 0 auto !important;
+  text-align: center !important;
+  z-index: 2;
+  animation: deskMonogramFloat 4s ease-in-out infinite alternate !important;
+}
+
+.desktop-monogram-img {
+  width: 170px !important;
+  max-width: 25vw !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.35)) !important;
+}
+
+@keyframes deskMonogramFloat {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-6px);
+  }
+}
+
+#desk_covwt .elementor-element-55eb6ac6 {
+  margin: 0 !important;
+  text-align: center !important;
+  z-index: 2;
+}
+
+#desk_covwt .elementor-element-55eb6ac6 .elementor-heading-title {
+  font-family: 'Cormorant Infant', 'Playfair Display', Georgia, serif !important;
+  font-size: 46px !important;
+  font-weight: 600 !important;
+  line-height: 1.15 !important;
+  color: #FFFFFF !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5) !important;
+  margin: 0 !important;
+  letter-spacing: 0.5px !important;
+}
+
+#desk_covwt .elementor-element-56443c78 {
+  margin: 0 !important;
+  text-align: center !important;
+  z-index: 2;
+}
+
+#desk_covwt .elementor-element-56443c78 .elementor-heading-title {
+  font-family: 'Cormorant Infant', 'Playfair Display', Georgia, serif !important;
+  font-size: 17px !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1.5px !important;
+  color: #FFFFFF !important;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5) !important;
+  margin: 0 !important;
+}
+
+.wtfixed .elementor-background-overlay {
+  position: fixed !important;
+  top: 0 !important;
+  left: calc(100% - 450px) !important;
+  width: 450px !important;
+  pointer-events: none;
+}
+
+.wtfixedC .elementor-background-overlay,
+.wtfixedC::before {
+  position: fixed !important;
+  top: 0 !important;
+  left: calc(100% - 450px) !important;
+  width: 450px !important;
+  pointer-events: none
+}
+
+@media (max-width:450px) {
+  #desk_covwt {
+    display: none
+  }
+}
+
+@media (max-width:900px) and (min-width:768px) {
+  #desk_covwt {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: calc(100% - 450px);
+    height: 100vh;
+    overflow: hidden
+  }
+
+  #isiwt2 {
+    margin-left: calc(100% - 450px);
+    width: 450px
+  }
+
+  .wtfixed .elementor-background-overlay {
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0
+  }
+
+  .wtfixedC .elementor-background-overlay,
+  .wtfixedC::before {
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0
+  }
+}
+
+@media (max-width:768px) {
+  #desk_covwt {
+    display: none
+  }
+
+  #isiwt2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+  }
+
+  .wtfixed .elementor-background-overlay {
+    left: 0 !important;
+    width: 100% !important
+  }
+
+  .wtfixedC .elementor-background-overlay,
+  .wtfixedC::before {
+    left: 0 !important;
+    width: 100% !important
+  }
+}
+
+body {
+  overflow-x: hidden !important
+}
+
+html {
+  scroll-behavior: auto !important
+}
+
+@media (min-width:990px) {
+  ::-webkit-scrollbar {
+    width: 10px
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    background-clip: content-box
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf
+  }
+}
+
+#eltemplate-amplop {
+  display: none
+}
+
+#eltemplate-btnCover,
+#eltemplate-btnAmplop {
+  cursor: pointer
+}
+
+
+/* Motion Section Monogram Styling */
+.elementor-element-motion-monogram {
+  text-align: center !important;
+  margin: 0 auto 10px auto !important;
+  z-index: 3;
+}
+
+.motion-monogram-img {
+  width: 100px !important;
+  max-width: 32vw !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+  filter: drop-shadow(0 3px 6px rgba(153, 121, 73, 0.28)) !important;
+  animation: motionMonogramFloat 4s ease-in-out infinite alternate !important;
+}
+
+@keyframes motionMonogramFloat {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-4px);
+  }
+}
+
+
+/* Hide Floating Buttons (Auto-scroll and Floating Audio Disc) */
+#asw-master-wrap,
+#asw-indicator,
+#asw-meta-data,
+.elementor-widget-wds_audio,
+#wds_audio_play,
+#wds_audio_pause,
+.elementor-element-1c2c8815 {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* ==========================================================================
+   Typography Enhancements & Readability Fixes
+   ========================================================================== */
+
+/* QS. Ar-Rum 21 Quote Section - Elegant, clean, readable italic serif */
+.elementor-element-1f4cc53a,
+.elementor-element-1f4cc53a .elementor-widget-container,
+.elementor-element-1f4cc53a p {
+  font-family: 'cormorant-infant', 'Cormorant Infant', Georgia, serif !important;
+  font-size: 16.5px !important;
+  line-height: 1.85 !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  color: #3b352b !important;
+  letter-spacing: 0.3px !important;
+  text-transform: none !important;
+  text-align: center !important;
+}
+
+/* Citation QS. AR-RUM : 21 */
+.elementor-element-5d7ea5e,
+.elementor-element-5d7ea5e .elementor-widget-container,
+.elementor-element-5d7ea5e p {
+  font-family: 'poppins', 'Poppins', sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  letter-spacing: 3px !important;
+  color: #9c7b45 !important;
+  text-transform: uppercase !important;
+  text-align: center !important;
+  margin-top: 14px !important;
+}
+
+/* Initials A & D above Ar-Rum */
+.elementor-element-39729244 h2,
+.elementor-element-4e34cf89 h2,
+.elementor-element-7171c1eb h2,
+.elementor-element-3231b152 h2,
+.elementor-element-4e34cf89 span,
+.elementor-element-3231b152 span {
+  font-family: 'playfair-display', 'Playfair Display', Georgia, serif !important;
+  font-weight: 600 !important;
+}
+
+/* Mempelai & General Headings */
+.elementor-widget-heading .elementor-heading-title {
+  text-transform: none;
+}
+
+/* Section Logo Icons (Replaced Melayu-Icon) */
+.elementor-element-19b9adaf img,
+.elementor-element-27e9dd06 img,
+.elementor-element-1a11c81b img,
+.elementor-element-94ce545 img {
+  width: 140px !important;
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+  object-fit: contain !important;
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.12));
+}
+
+/* ==========================================================================
+   MODERN RSVP & WISHES COMMUNITY BOARD
+   ========================================================================== */
+
+.modern-rsvp-container {
+  width: 100%;
+  max-width: 580px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  box-sizing: border-box;
+}
+
+/* 1. RSVP FORM CARD */
+.modern-rsvp-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1.5px solid rgba(212, 175, 55, 0.35);
+  border-radius: 22px;
+  padding: 30px 26px;
+  box-shadow: 0 16px 40px rgba(78, 60, 35, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04);
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.modern-rsvp-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #c5a059, #e6ca85, #a37c3f);
+}
+
+.modern-rsvp-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.modern-rsvp-icon-wrap {
+  width: 46px;
+  height: 46px;
+  margin: 0 auto 12px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.18), rgba(212, 175, 55, 0.06));
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a37c3f;
+  font-size: 20px;
+}
+
+.modern-rsvp-title {
+  font-family: 'playfair-display', 'Playfair Display', Georgia, serif;
+  font-size: 21px;
+  font-weight: 700;
+  color: #2b2316;
+  margin: 0 0 6px 0;
+  letter-spacing: 0.2px;
+}
+
+.modern-rsvp-subtitle {
+  font-family: 'poppins', 'Poppins', sans-serif;
+  font-size: 13px;
+  color: #7a6e5e;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Form Elements */
+.modern-rsvp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.modern-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  text-align: left;
+}
+
+.modern-form-label {
+  font-family: 'poppins', 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #423624;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.modern-form-label i {
+  color: #a37c3f;
+  font-size: 13px;
+}
+
+.modern-form-input,
+.modern-form-textarea,
+.modern-form-select {
+  width: 100%;
+  font-family: 'poppins', 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #2b2316;
+  background: #ffffff;
+  border: 1.5px solid rgba(197, 160, 89, 0.32);
+  border-radius: 12px;
+  padding: 12px 14px;
+  box-sizing: border-box;
+  transition: all 0.25s ease;
+  outline: none;
+}
+
+.modern-form-input:focus,
+.modern-form-textarea:focus,
+.modern-form-select:focus {
+  border-color: #a37c3f;
+  box-shadow: 0 0 0 3.5px rgba(197, 160, 89, 0.2);
+}
+
+.modern-form-textarea {
+  resize: vertical;
+  min-height: 85px;
+  line-height: 1.5;
+}
+
+/* Attendance Pills */
+.modern-attendance-selector {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.attendance-pill {
+  font-family: 'poppins', 'Poppins', sans-serif;
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 10px 6px;
+  border-radius: 12px;
+  border: 1.5px solid rgba(197, 160, 89, 0.28);
+  background: #fbfaf8;
+  color: #645745;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+}
+
+.attendance-pill:hover {
+  background: #f3efe6;
+  border-color: #bfa066;
+}
+
+.attendance-pill.active[data-value="Hadir"] {
+  background: #059669;
+  border-color: #047857;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(5, 150, 105, 0.28);
+}
+
+.attendance-pill.active[data-value="Tidak Hadir"] {
+  background: #dc2626;
+  border-color: #b91c1c;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.25);
+}
+
+.attendance-pill.active[data-value="Masih Ragu"] {
+  background: #d97706;
+  border-color: #b45309;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.25);
+}
+
+/* Select wrapper */
+.modern-select-wrap {
+  position: relative;
+  width: 100%;
+}
+
+.modern-form-select {
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  padding-right: 36px;
+}
+
+.select-arrow {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #8c734b;
+  font-size: 12px;
+}
+
+/* Submit Button */
+.modern-rsvp-submit-btn {
+  font-family: 'poppins', 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 14px 20px;
+  border-radius: 14px;
+  border: none;
+  background: linear-gradient(135deg, #a78044 0%, #cfa859 50%, #8f6929 100%);
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 10px 24px rgba(163, 124, 63, 0.32);
+  transition: all 0.3s ease;
+  margin-top: 6px;
+}
+
+.modern-rsvp-submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(163, 124, 63, 0.42);
+  filter: brightness(1.05);
+}
+
+.modern-rsvp-submit-btn:active {
+  transform: translateY(0);
+}
+
+.modern-rsvp-submit-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Alert Box */
+.modern-form-alert {
+  padding: 11px 14px;
+  border-radius: 10px;
+  font-family: 'poppins', 'Poppins', sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: center;
+  animation: wishFadeIn 0.3s ease;
+}
+
+.modern-form-alert.success {
+  background: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  color: #065f46;
+}
+
+.modern-form-alert.error {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+}
+
+
+/* 2. COMMUNITY WISHES BOARD */
+.modern-wishes-board {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1.5px solid rgba(212, 175, 55, 0.35);
+  border-radius: 22px;
+  padding: 26px 22px;
+  box-shadow: 0 16px 40px rgba(78, 60, 35, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04);
+  box-sizing: border-box;
+}
+
+.modern-wishes-header {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(197, 160, 89, 0.22);
+}
+
+.wishes-title-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+}
+
+.wishes-heart-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.wishes-main-title {
+  font-family: 'playfair-display', 'Playfair Display', Georgia, serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2b2316;
+  margin: 0;
+}
+
+/* Stats Chips Bar */
+.wishes-stats-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.wishes-stat-chip {
+  font-family: 'poppins', 'Poppins', sans-serif;
+  font-size: 11.5px;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.wishes-stat-chip.total {
+  background: #f4efe6;
+  color: #755928;
+  border: 1px solid rgba(197, 160, 89, 0.35);
+}
+
+.wishes-stat-chip.present {
+  background: #ecfdf5;
+  color: #065f46;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.wishes-stat-chip.absent {
+  background: #fef2f2;
+  color: #991b1b;
+  border: 1px solid rgba(239, 68, 68, 0.25);
+}
+
+/* Wishes Feed Container & Scroll */
+.modern-wishes-feed-wrap {
+  position: relative;
+}
+
+.modern-wishes-feed {
+  max-height: 480px;
+  overflow-y: auto;
+  padding-right: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  scrollbar-width: thin;
+  scrollbar-color: #d4af37 rgba(0, 0, 0, 0.05);
+}
+
+.modern-wishes-feed::-webkit-scrollbar {
+  width: 5px;
+}
+
+.modern-wishes-feed::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+}
+
+.modern-wishes-feed::-webkit-scrollbar-thumb {
+  background: #c5a059;
+  border-radius: 4px;
+}
+
+.modern-wishes-feed::-webkit-scrollbar-thumb:hover {
+  background: #a37c3f;
+}
+
+/* Individual Wish Card */
+.modern-wish-card {
+  background: #ffffff;
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 15px;
+  padding: 15px 16px;
+  box-shadow: 0 4px 14px rgba(78, 60, 35, 0.04);
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  text-align: left;
+  transition: all 0.2s ease;
+  animation: wishCardIn 0.35s ease forwards;
+}
+
+.modern-wish-card:hover {
+  border-color: rgba(197, 160, 89, 0.55);
+  box-shadow: 0 6px 18px rgba(78, 60, 35, 0.08);
+  transform: translateY(-1px);
+}
+
+.wish-avatar {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #a78044, #d4af37);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'poppins', 'Poppins', sans-serif;
+  font-size: 13.5px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  box-shadow: 0 3px 8px rgba(167, 128, 68, 0.35);
+  border: 1.5px solid #ffffff;
+}
+
+.wish-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.wish-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+
+.wish-author {
+  font-family: 'poppins', 'Poppins', sans-serif;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #2b2316;
+  white-space: normal;
+  word-break: break-word;
+}
+
+.wish-badges-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.wish-tag {
+  font-family: 'poppins', 'Poppins', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.wish-tag.hadir {
+  background: #d1fae5;
+  color: #047857;
+}
+
+.wish-tag.tidak-hadir {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.wish-tag.ragu {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.wish-time {
+  font-family: 'poppins', 'Poppins', sans-serif;
+  font-size: 11px;
+  color: #9ca3af;
+}
+
+.wish-message {
+  font-family: 'poppins', 'Poppins', sans-serif;
+  font-size: 13px;
+  line-height: 1.55;
+  color: #4b5563;
+  margin: 6px 0 0 0;
+  word-break: break-word;
+}
+
+.wishes-loading,
+.wishes-empty {
+  text-align: center;
+  padding: 36px 16px;
+  font-family: 'poppins', 'Poppins', sans-serif;
+  font-size: 13.5px;
+  color: #786c5c;
+}
+
+.modern-wishes-footer {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px dashed rgba(197, 160, 89, 0.25);
+  font-family: 'poppins', 'Poppins', sans-serif;
+  font-size: 11.5px;
+  color: #8c7f6e;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+/* Keyframes */
+@keyframes wishCardIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes wishFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+
+  .modern-rsvp-card,
+  .modern-wishes-board {
+    padding: 22px 16px;
+    border-radius: 18px;
+  }
+
+  .modern-attendance-selector {
+    gap: 6px;
+  }
+
+  .attendance-pill {
+    font-size: 11.5px;
+    padding: 9px 4px;
+  }
+
+  .modern-wish-card {
+    padding: 12px 13px;
+    gap: 11px;
+  }
+
+  .wish-avatar {
+    width: 36px;
+    height: 36px;
+    font-size: 12px;
+  }
+}
+
+/* Kunci scroll saat di cover tanpa merusak layout */
+html.cover-locked,
+body.cover-locked {
+  overflow: hidden !important;
+  height: 100vh !important;
+  max-height: 100vh !important;
+  touch-action: none;
+}
+
+/* ==========================================================================
+   FOOTER BRANDING: "Davel • Wedding Invitation" LANGSUNG DI ATAS BACKGROUND BUNGA
+   ========================================================================== */
+/* Hilangkan container kotak footer lama sepenuhnya */
+.elementor-57580 .elementor-element.elementor-element-15145e7d,
+.elementor-element.elementor-element-15145e7d {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background: none !important;
+}
+
+/* Sesuaikan container penutup (1334d557) agar teks pas dan lega di atas background bunga */
+.elementor-element.elementor-element-1334d557 {
+  padding-bottom: 30px !important;
+}
+
+/* Teks Branding langsung menempel di atas background */
+.footer-brand-widget {
+  position: relative !important;
+  z-index: 10 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  margin: 35px auto 5px auto !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.footer-brand-widget:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+.footer-brand-widget .elementor-widget-container {
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: center !important;
+}
+
+.footer-brand-widget .elementor-heading-title {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 1.2 !important;
+}
+
+.footer-brand-name {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #2b1a09 !important;
+  letter-spacing: 1.8px !important;
+  text-shadow: 0 1px 4px rgba(255, 253, 244, 0.95), 0 0 10px rgba(255, 253, 244, 0.9) !important;
+}
+
+.footer-brand-bullet {
+  color: #a97825 !important;
+  margin: 0 9px !important;
+  font-size: 11px !important;
+  line-height: 1 !important;
+  text-shadow: 0 1px 3px rgba(255, 253, 244, 0.9) !important;
+}
+
+.footer-brand-tag {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 10.5px !important;
+  font-weight: 600 !important;
+  color: #553e20 !important;
+  letter-spacing: 2.2px !important;
+  text-transform: uppercase !important;
+  text-shadow: 0 1px 4px rgba(255, 253, 244, 0.95), 0 0 8px rgba(255, 253, 244, 0.85) !important;
+}
