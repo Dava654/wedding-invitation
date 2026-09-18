@@ -1433,3 +1433,35 @@ function checkSamsungDarkMode() {
   }
 })();
 
+// Guardian for Countdown Slideshow (Section 36596cb5)
+(function () {
+  function fixSlideImages() {
+    var slides = document.querySelectorAll('.elementor-element-36596cb5 .elementor-background-slideshow__slide__image');
+    for (var i = 0; i < slides.length; i++) {
+      if (slides[i].style.backgroundPosition !== 'center top') {
+        slides[i].style.setProperty('background-position', 'center top', 'important');
+      }
+      if (slides[i].style.backgroundSize !== 'cover') {
+        slides[i].style.setProperty('background-size', 'cover', 'important');
+      }
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', fixSlideImages);
+  } else {
+    fixSlideImages();
+  }
+  window.addEventListener('load', fixSlideImages);
+
+  var target = document.querySelector('.elementor-element-36596cb5');
+  if (target && window.MutationObserver) {
+    var observer = new MutationObserver(function () {
+      fixSlideImages();
+    });
+    observer.observe(target, { childList: true, subtree: true, attributes: true, attributeFilter: ['style', 'class'] });
+  } else {
+    setInterval(fixSlideImages, 1500);
+  }
+})();
+

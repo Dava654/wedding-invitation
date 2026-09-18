@@ -3437,17 +3437,21 @@ body.cover-locked {
 }
 
 /* Countdown slideshow section (Above Save The Date) */
+.elementor-57580 .elementor-element.elementor-element-36596cb5,
 .elementor-element.elementor-element-36596cb5,
 .elementor-element-36596cb5 {
-  background-image: url("images/photo7.jpg") !important;
+  background-image: url("images/photo6.jpg") !important;
   background-size: cover !important;
   background-position: center top !important;
-  min-height: 520px !important;
-  height: 65vh !important;
-  max-height: 650px !important;
+  min-height: 600px !important;
+  height: 75vh !important;
+  max-height: 750px !important;
   position: relative !important;
 }
 
+.elementor-57580 .elementor-element.elementor-element-36596cb5 .elementor-background-slideshow,
+.elementor-57580 .elementor-element.elementor-element-36596cb5 .elementor-background-slideshow__slide,
+.elementor-57580 .elementor-element.elementor-element-36596cb5 .elementor-background-slideshow__slide__image,
 .elementor-element-36596cb5 .elementor-background-slideshow,
 .elementor-element-36596cb5 .elementor-background-slideshow__slide,
 .elementor-element-36596cb5 .elementor-background-slideshow__slide__image {
@@ -3456,15 +3460,25 @@ body.cover-locked {
   height: 100% !important;
 }
 
+.elementor-57580 .elementor-element.elementor-element-36596cb5::before,
+.elementor-element-36596cb5::before,
+.elementor-element-36596cb5 > .elementor-background-slideshow::before {
+  background-image: linear-gradient(180deg, rgba(127, 95, 78, 0) 82%, #997949 100%) !important;
+}
+
 @media (max-width: 768px) {
+  .elementor-57580 .elementor-element.elementor-element-36596cb5,
   .elementor-element.elementor-element-36596cb5,
   .elementor-element-36596cb5 {
-    min-height: 480px !important;
-    height: 62vh !important;
+    min-height: 580px !important;
+    height: 72vh !important;
+    max-height: 700px !important;
     background-position: center top !important;
   }
 
+  .elementor-57580 .elementor-element.elementor-element-36596cb5 .elementor-background-slideshow__slide__image,
   .elementor-element-36596cb5 .elementor-background-slideshow__slide__image {
     background-position: center top !important;
+    background-size: cover !important;
   }
 }
