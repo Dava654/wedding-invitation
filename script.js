@@ -14,6 +14,22 @@
   hookJQuery();
 })();
 
+// Failsafe: Pastikan semua elemen konten undangan langsung tampil dan tidak tersangkut invisible
+(function () {
+  function revealAllContent() {
+    var invisibles = document.querySelectorAll('.elementor-invisible:not(#eltemplate-amplop)');
+    for (var i = 0; i < invisibles.length; i++) {
+      invisibles[i].classList.remove('elementor-invisible');
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', revealAllContent);
+  } else {
+    revealAllContent();
+  }
+  window.addEventListener('load', revealAllContent);
+})();
+
 /**
  * Script Undangan Digital - Andri & Dina
  * Dipisahkan dari anjay.html
@@ -256,10 +272,15 @@ function enableScrolling() {
   document.body.classList.remove('cover-locked');
   document.documentElement.style.overflow = '';
   document.documentElement.style.height = '';
+  document.documentElement.style.touchAction = '';
   document.body.style.overflow = '';
   document.body.style.overflowY = '';
   document.body.style.height = '';
+  document.body.style.touchAction = '';
   window.onscroll = null;
+  if (typeof triggerFxAnimations === 'function') {
+    triggerFxAnimations();
+  }
 }
 
 function playAudio() {
@@ -490,22 +511,25 @@ document.addEventListener("DOMContentLoaded", function () {
    4. EFEK ANIMASI SCROLL (FX-RISE)
    ========================================================================== */
 
-window.addEventListener("scroll", function () {
+function triggerFxAnimations() {
   var targets = document.querySelectorAll(
     ".fx-rise-left, .fx-rise-right, .fx-rise-down-left, .fx-rise-down-right, " +
     ".fx-rise-down, .fx-rise, .fx-slide-left, .fx-slide-right, " +
     ".fx-scale-in, .fx-scale-out, .fx-rotate-in, .fx-rotate-in-right"
   );
-  var triggerBottom = window.innerHeight - 50;
+  var triggerBottom = window.innerHeight - 30;
 
   targets.forEach(function (el) {
     if (el.getBoundingClientRect().top < triggerBottom) {
       el.classList.add("active");
-    } else {
-      el.classList.remove("active");
     }
   });
-});
+}
+
+window.addEventListener("scroll", triggerFxAnimations, { passive: true });
+window.addEventListener("resize", triggerFxAnimations, { passive: true });
+document.addEventListener("DOMContentLoaded", triggerFxAnimations);
+window.addEventListener("load", triggerFxAnimations);
 
 
 /* ==========================================================================

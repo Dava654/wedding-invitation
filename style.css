@@ -2278,7 +2278,17 @@ html {
   width: 450px !important;
 }
 
-#desk_covwt .elementor-invisible {
+/* Fail-safe Global: Pastikan semua elemen undangan selalu terlihat & tidak terkunci */
+.elementor-invisible:not(#eltemplate-amplop) {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+#desk_covwt .elementor-invisible,
+#isiwt2 .elementor-invisible,
+.wds-button-cover,
+#btnOpens,
+.btn-open-act {
   visibility: visible !important;
   opacity: 1 !important;
 }

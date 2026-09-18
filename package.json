@@ -4,6 +4,7 @@
   "description": "Website Undangan Pernikahan Digital Andri & Dina",
   "main": "server.js",
   "scripts": {
+    "build": "echo 'Ready'",
     "start": "node server.js",
     "dev": "node server.js"
   },
