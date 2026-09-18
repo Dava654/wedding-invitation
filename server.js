@@ -154,9 +154,36 @@ const server = http.createServer((req, res) => {
   const ext = path.extname(resolved.fullPath).toLowerCase();
   const contentType = MIME_TYPES[ext] || 'application/octet-stream';
 
+  const rangeHeader = req.headers.range;
+  if (rangeHeader && (ext === '.mp3' || ext === '.mp4' || ext === '.webm' || ext === '.ogg')) {
+    const parts = rangeHeader.replace(/bytes=/, '').split('-');
+    const start = parseInt(parts[0], 10);
+    const end = parts[1] ? parseInt(parts[1], 10) : resolved.size - 1;
+
+    if (isNaN(start) || start >= resolved.size || (parts[1] && (isNaN(end) || end < start || end >= resolved.size))) {
+      res.writeHead(416, { 'Content-Range': `bytes */${resolved.size}` });
+      res.end();
+      return;
+    }
+
+    const chunkSize = (end - start) + 1;
+    res.writeHead(206, {
+      'Content-Range': `bytes ${start}-${end}/${resolved.size}`,
+      'Accept-Ranges': 'bytes',
+      'Content-Length': chunkSize,
+      'Content-Type': contentType,
+      'Cache-Control': 'public, max-age=86400'
+    });
+
+    const stream = fs.createReadStream(resolved.fullPath, { start, end });
+    stream.pipe(res);
+    return;
+  }
+
   res.writeHead(200, {
     'Content-Type': contentType,
     'Content-Length': resolved.size,
+    'Accept-Ranges': 'bytes',
     'Cache-Control': ext === '.html' ? 'no-cache' : 'public, max-age=86400'
   });
 

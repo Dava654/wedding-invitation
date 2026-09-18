@@ -283,13 +283,37 @@ function enableScrolling() {
   }
 }
 
+var isInvitationOpened = false;
+var isAudioManuallyPaused = false;
+
+function updateMusicButtonUI(isPlaying) {
+  var btn = document.getElementById('wedding-music-floating');
+  if (!btn) return;
+  var iconPlaying = btn.querySelector('.icon-music-playing');
+  var iconPaused = btn.querySelector('.icon-music-paused');
+  if (isPlaying) {
+    btn.classList.add('playing');
+    btn.classList.remove('paused');
+    if (iconPlaying) iconPlaying.style.display = 'block';
+    if (iconPaused) iconPaused.style.display = 'none';
+  } else {
+    btn.classList.remove('playing');
+    btn.classList.add('paused');
+    if (iconPlaying) iconPlaying.style.display = 'none';
+    if (iconPaused) iconPaused.style.display = 'block';
+  }
+}
+
 function playAudio() {
   var song = document.getElementById("song");
   if (song && document.body.contains(song)) {
     var playPromise = song.play();
     if (playPromise !== undefined) {
-      playPromise.catch(function (error) {
+      playPromise.then(function () {
+        updateMusicButtonUI(true);
+      }).catch(function (error) {
         console.log("Audio autoplay dicegah browser:", error);
+        updateMusicButtonUI(false);
       });
     }
   }
@@ -299,6 +323,19 @@ function pauseAudio() {
   var song = document.getElementById("song");
   if (song) {
     song.pause();
+    updateMusicButtonUI(false);
+  }
+}
+
+function toggleAudio() {
+  var song = document.getElementById("song");
+  if (!song) return;
+  if (song.paused) {
+    isAudioManuallyPaused = false;
+    playAudio();
+  } else {
+    isAudioManuallyPaused = true;
+    pauseAudio();
   }
 }
 
@@ -382,8 +419,14 @@ document.addEventListener("DOMContentLoaded", function () {
       e.preventDefault();
       e.stopPropagation();
     }
+    isInvitationOpened = true;
     enableScrolling();
     playAudio();
+
+    var musicBtn = document.getElementById('wedding-music-floating');
+    if (musicBtn) {
+      musicBtn.style.display = 'flex';
+    }
 
     var openTarget = document.getElementById('open');
     if (openTarget) {
@@ -414,22 +457,45 @@ document.addEventListener("DOMContentLoaded", function () {
     tombolCover.onclick = function (e) {
       if (e) e.preventDefault();
       tombolCover.style.visibility = "hidden";
+      isInvitationOpened = true;
       enableScrolling();
       playAudio();
+      var musicBtn = document.getElementById('wedding-music-floating');
+      if (musicBtn) {
+        musicBtn.style.display = 'flex';
+      }
       if (window.jQuery) {
         jQuery('#eltemplate-btnCover').parents('#eltemplate-cover').fadeOut(500);
       }
     };
   }
 
+  // Init floating music button & listeners
+  var musicBtn = document.getElementById('wedding-music-floating');
+  if (musicBtn) {
+    musicBtn.onclick = function (e) {
+      e.stopPropagation();
+      toggleAudio();
+    };
+  }
+
+  var songEl = document.getElementById('song');
+  if (songEl) {
+    songEl.addEventListener('play', function () { updateMusicButtonUI(true); });
+    songEl.addEventListener('pause', function () { updateMusicButtonUI(false); });
+    songEl.addEventListener('ended', function () { updateMusicButtonUI(false); });
+  }
+
   // 5. Kontrol Audio saat tab browser aktif/tidak aktif
-  var wdpAudio = document.getElementById('song');
   document.addEventListener("visibilitychange", function () {
-    if (!wdpAudio) return;
+    var song = document.getElementById('song');
+    if (!song) return;
     if (document.visibilityState === "visible") {
-      playAudio();
+      if (isInvitationOpened && !isAudioManuallyPaused) {
+        playAudio();
+      }
     } else {
-      wdpAudio.pause();
+      song.pause();
     }
   });
 

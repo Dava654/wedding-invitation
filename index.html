@@ -2010,7 +2010,7 @@
 						data-widget_type="wds_audio.default">
 						<div class="elementor-widget-container">
 							<div id="wds-audio-box" style="display:none !important;">
-								<audio id="song" loop>
+								<audio id="song" loop preload="auto">
 									<source src="sound.mp3" type="audio/mpeg">
 								</audio>
 							</div>
@@ -2020,6 +2020,19 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Floating Music Toggle Button -->
+	<div id="wedding-music-floating" class="wedding-music-btn paused" title="Putar / Jeda Musik" style="display: none;">
+		<div class="music-disc-inner">
+			<svg class="icon-music-playing" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+				<path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
+			</svg>
+			<svg class="icon-music-paused" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" style="display: none;">
+				<path d="M4.27 3L3 4.27l9 9v.28c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 3.73 0 3.95-3.05l4.31 4.31 1.27-1.27L4.27 3zM14 7h4V3h-6v5.18l2 2V7z"/>
+			</svg>
+		</div>
+	</div>
+
 	<script src="sweetalert2.all.min.js"></script>
 
 	<script type="application/ld+json"

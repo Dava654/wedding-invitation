@@ -3267,3 +3267,64 @@ body.cover-locked {
   text-transform: uppercase !important;
   text-shadow: 0 1px 4px rgba(255, 253, 244, 0.95), 0 0 8px rgba(255, 253, 244, 0.85) !important;
 }
+
+/* ==========================================================================
+   FLOATING MUSIC TOGGLE BUTTON
+   ========================================================================== */
+.wedding-music-btn {
+  position: fixed !important;
+  bottom: 24px !important;
+  right: 20px !important;
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 50% !important;
+  background: rgba(36, 28, 20, 0.88) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border: 1.8px solid #d4af37 !important;
+  color: #d4af37 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  z-index: 99999 !important;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4), 0 0 12px rgba(212, 175, 55, 0.3) !important;
+  transition: transform 0.25s ease, background 0.25s ease, box-shadow 0.25s ease !important;
+  user-select: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+.wedding-music-btn:hover {
+  transform: scale(1.08) !important;
+  background: rgba(45, 35, 25, 0.95) !important;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.5), 0 0 16px rgba(212, 175, 55, 0.5) !important;
+}
+
+.wedding-music-btn:active {
+  transform: scale(0.95) !important;
+}
+
+.wedding-music-btn .music-disc-inner {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.wedding-music-btn.playing .music-disc-inner {
+  animation: weddingMusicSpin 4s linear infinite !important;
+}
+
+.wedding-music-btn.paused .music-disc-inner {
+  animation: none !important;
+}
+
+@keyframes weddingMusicSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
