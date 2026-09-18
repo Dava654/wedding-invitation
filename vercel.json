@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "server.js": {
-      "includeFiles": "{index.html,style.css,script.js,sound.mp3,mouse.json,sweetalert2.all.min.js,wishes.json,fonts/**,images/**}"
+      "includeFiles": "{index.html,style.css,script.js,sound.mp3,mouse.json,sweetalert2.all.min.js,wishes.json,fonts/**,images/**,*.jpg,*.png,*.svg,*.webp}"
     }
   },
   "routes": [

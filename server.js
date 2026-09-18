@@ -38,6 +38,8 @@ function resolveStaticPath(pathname) {
   if (!pathname || pathname === '/') {
     pathname = '/index.html';
   }
+  const baseName = path.basename(pathname);
+
   for (const dir of ROOT_DIRS) {
     try {
       const fullPath = path.normalize(path.join(dir, pathname));
@@ -45,6 +47,28 @@ function resolveStaticPath(pathname) {
         const stats = fs.statSync(fullPath);
         if (stats.isFile()) {
           return { fullPath, size: stats.size };
+        }
+      }
+    } catch (e) {}
+
+    // Fallback: check in images/ directory
+    try {
+      const imgPath = path.normalize(path.join(dir, 'images', baseName));
+      if (imgPath.startsWith(dir) && fs.existsSync(imgPath)) {
+        const stats = fs.statSync(imgPath);
+        if (stats.isFile()) {
+          return { fullPath: imgPath, size: stats.size };
+        }
+      }
+    } catch (e) {}
+
+    // Fallback: check in fonts/ directory
+    try {
+      const fontPath = path.normalize(path.join(dir, 'fonts', baseName));
+      if (fontPath.startsWith(dir) && fs.existsSync(fontPath)) {
+        const stats = fs.statSync(fontPath);
+        if (stats.isFile()) {
+          return { fullPath: fontPath, size: stats.size };
         }
       }
     } catch (e) {}
@@ -146,6 +170,11 @@ const server = http.createServer((req, res) => {
   // 4. Static Files
   const resolved = resolveStaticPath(pathname);
   if (!resolved) {
+    if (pathname.startsWith('/wp-content/') || pathname.startsWith('/wp-includes/') || pathname.startsWith('/webfonts/')) {
+      res.writeHead(302, { 'Location': 'https://waktutemu.id' + req.url });
+      res.end();
+      return;
+    }
     res.writeHead(404, { 'Content-Type': 'text/plain' });
     res.end('404 Not Found');
     return;
