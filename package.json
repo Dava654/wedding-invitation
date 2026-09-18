@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Website Undangan Pernikahan Digital Andri & Dina",
   "scripts": {
-    "build": "echo 'Ready'",
     "start": "node local-server.js",
     "dev": "node local-server.js"
   },
