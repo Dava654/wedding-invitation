@@ -424,23 +424,26 @@ document.addEventListener("DOMContentLoaded", function () {
       setTimeout(function () {
         var el = document.querySelector('.motionSection ' + it.sel);
         if (el) {
+          el.classList.remove('motion-item-hidden');
           el.classList.add(it.animClass);
         }
       }, it.delay);
     });
   }
 
-  if (videoCover) {
-    videoCover.removeAttribute('autoplay');
-    videoCover.addEventListener('timeupdate', function () {
-      if (videoCover.currentTime >= 12.8) {
-        triggerMotionAnimations();
-      }
-    });
-    videoCover.addEventListener('ended', function () {
-      triggerMotionAnimations();
-    });
+  function bindMotionVideo() {
+    var vid = document.querySelector('.motionSection .elementor-background-video-container video');
+    if (vid) {
+      vid.removeAttribute('autoplay');
+      vid.addEventListener('timeupdate', function () {
+        if (vid.currentTime >= 12.5) {
+          triggerMotionAnimations();
+        }
+      });
+      vid.addEventListener('ended', triggerMotionAnimations);
+    }
   }
+  bindMotionVideo();
 
   if (kolomPertama) {
     kolomPertama.style.display = 'none';
@@ -470,20 +473,26 @@ document.addEventListener("DOMContentLoaded", function () {
       openTarget.scrollIntoView({ behavior: 'smooth' });
     }
 
+    // Timer pasti: animasi teks & logo muncul tepat saat video animasi 13 detik selesai
+    setTimeout(triggerMotionAnimations, 13000);
+
     setTimeout(function () {
       var vid = document.querySelector('.motionSection .elementor-background-video-container video');
       if (vid) {
-        vid.play().then(function () {
-          // Backup timer jika timeupdate tertunda
-          setTimeout(triggerMotionAnimations, 13500);
-        }).catch(function () {
-          // Fallback jika video gagal putar pada mode hemat baterai
-          setTimeout(triggerMotionAnimations, 2000);
+        vid.addEventListener('timeupdate', function () {
+          if (vid.currentTime >= 12.5) {
+            triggerMotionAnimations();
+          }
         });
-      } else {
-        setTimeout(triggerMotionAnimations, 2000);
+        vid.addEventListener('ended', triggerMotionAnimations);
+        try {
+          var p = vid.play();
+          if (p && typeof p.then === 'function') {
+            p.catch(function () { });
+          }
+        } catch (err) { }
       }
-    }, 800);
+    }, 500);
 
     setTimeout(function () {
       var kp = document.querySelector('.kolomPertama');
