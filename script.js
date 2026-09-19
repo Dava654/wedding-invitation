@@ -21,11 +21,8 @@
     for (var i = 0; i < invisibles.length; i++) {
       invisibles[i].classList.remove('elementor-invisible');
     }
-    // Pastikan foto-foto dan elemen animasi tidak tersangkut di opacity 0
-    var fxElements = document.querySelectorAll('.fx-scale-in, .fx-scale-out, .fx-rise, .fx-rise-down');
-    for (var j = 0; j < fxElements.length; j++) {
-      fxElements[j].classList.add('active');
-    }
+    // Catatan: fx-elements TIDAK langsung diaktifkan di sini agar animasi scroll bekerja.
+    // Animasi scroll akan diaktifkan via triggerFxAnimations() saat scroll terjadi.
   }
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', revealAllContent);
@@ -460,6 +457,7 @@ document.addEventListener("DOMContentLoaded", function () {
       e.stopPropagation();
     }
     isInvitationOpened = true;
+    fxAnimationsEnabled = true;
     enableScrolling();
     playAudio();
 
@@ -475,6 +473,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Timer pasti: animasi teks & logo muncul tepat saat video animasi 13 detik selesai
     setTimeout(triggerMotionAnimations, 13000);
+
+    // Aktifkan animasi scroll setelah konten muncul
+    setTimeout(triggerFxAnimations, 500);
 
     setTimeout(function () {
       var vid = document.querySelector('.motionSection .elementor-background-video-container video');
@@ -512,6 +513,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (e) e.preventDefault();
       tombolCover.style.visibility = "hidden";
       isInvitationOpened = true;
+      fxAnimationsEnabled = true;
       enableScrolling();
       playAudio();
       var musicBtn = document.getElementById('wedding-music-floating');
@@ -524,6 +526,7 @@ document.addEventListener("DOMContentLoaded", function () {
           vid.play().catch(function () { });
         }
         setTimeout(triggerMotionAnimations, 13500);
+        triggerFxAnimations();
       }, 800);
       if (window.jQuery) {
         jQuery('#eltemplate-btnCover').parents('#eltemplate-cover').fadeOut(500);
@@ -662,16 +665,21 @@ document.addEventListener("DOMContentLoaded", function () {
    4. EFEK ANIMASI SCROLL (FX-RISE)
    ========================================================================== */
 
+// Flag apakah undangan sudah dibuka (untuk mencegah animasi scroll muncul sebelum undangan dibuka)
+var fxAnimationsEnabled = false;
+
 function triggerFxAnimations() {
+  if (!fxAnimationsEnabled) return;
   var targets = document.querySelectorAll(
     ".fx-rise-left, .fx-rise-right, .fx-rise-down-left, .fx-rise-down-right, " +
     ".fx-rise-down, .fx-rise, .fx-slide-left, .fx-slide-right, " +
     ".fx-scale-in, .fx-scale-out, .fx-rotate-in, .fx-rotate-in-right"
   );
-  var triggerBottom = window.innerHeight - 30;
+  var triggerBottom = window.innerHeight + 60;
 
   targets.forEach(function (el) {
-    if (el.getBoundingClientRect().top < triggerBottom) {
+    var rect = el.getBoundingClientRect();
+    if (rect.top < triggerBottom && rect.bottom > 0) {
       el.classList.add("active");
     }
   });
@@ -679,8 +687,6 @@ function triggerFxAnimations() {
 
 window.addEventListener("scroll", triggerFxAnimations, { passive: true });
 window.addEventListener("resize", triggerFxAnimations, { passive: true });
-document.addEventListener("DOMContentLoaded", triggerFxAnimations);
-window.addEventListener("load", triggerFxAnimations);
 
 
 /* ==========================================================================
