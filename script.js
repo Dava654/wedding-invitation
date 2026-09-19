@@ -406,10 +406,42 @@ document.addEventListener("DOMContentLoaded", function () {
   var delaySection = 0;
   var kolomPertama = document.querySelector('.kolomPertama');
   var videoCover = document.querySelector('.motionSection .elementor-background-video-container video');
+  var motionItemsAnimated = false;
+
+  function triggerMotionAnimations() {
+    if (motionItemsAnimated) return;
+    motionItemsAnimated = true;
+
+    var items = [
+      { sel: '.elementor-element-motion-monogram', animClass: 'anim-in-zoom', delay: 0 },
+      { sel: '.elementor-element-78860cb6', animClass: 'anim-in-zoom', delay: 180 },
+      { sel: '.elementor-element-4be25d58', animClass: 'anim-in-zoom', delay: 360 },
+      { sel: '.elementor-element-f146e6f', animClass: 'anim-in-zoom', delay: 540 },
+      { sel: '.elementor-element-3dc9c368', animClass: 'anim-in-up', delay: 720 }
+    ];
+
+    items.forEach(function (it) {
+      setTimeout(function () {
+        var el = document.querySelector('.motionSection ' + it.sel);
+        if (el) {
+          el.classList.add(it.animClass);
+        }
+      }, it.delay);
+    });
+  }
 
   if (videoCover) {
     videoCover.removeAttribute('autoplay');
+    videoCover.addEventListener('timeupdate', function () {
+      if (videoCover.currentTime >= 12.8) {
+        triggerMotionAnimations();
+      }
+    });
+    videoCover.addEventListener('ended', function () {
+      triggerMotionAnimations();
+    });
   }
+
   if (kolomPertama) {
     kolomPertama.style.display = 'none';
     delaySection = parseInt(kolomPertama.dataset.delayTime, 10) || 0;
@@ -441,9 +473,17 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(function () {
       var vid = document.querySelector('.motionSection .elementor-background-video-container video');
       if (vid) {
-        vid.play().catch(function () { });
+        vid.play().then(function () {
+          // Backup timer jika timeupdate tertunda
+          setTimeout(triggerMotionAnimations, 13500);
+        }).catch(function () {
+          // Fallback jika video gagal putar pada mode hemat baterai
+          setTimeout(triggerMotionAnimations, 2000);
+        });
+      } else {
+        setTimeout(triggerMotionAnimations, 2000);
       }
-    }, 1000);
+    }, 800);
 
     setTimeout(function () {
       var kp = document.querySelector('.kolomPertama');
@@ -469,6 +509,13 @@ document.addEventListener("DOMContentLoaded", function () {
       if (musicBtn) {
         musicBtn.style.display = 'flex';
       }
+      setTimeout(function () {
+        var vid = document.querySelector('.motionSection .elementor-background-video-container video');
+        if (vid) {
+          vid.play().catch(function () { });
+        }
+        setTimeout(triggerMotionAnimations, 13500);
+      }, 800);
       if (window.jQuery) {
         jQuery('#eltemplate-btnCover').parents('#eltemplate-cover').fadeOut(500);
       }

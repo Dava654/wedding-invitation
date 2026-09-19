@@ -2510,6 +2510,52 @@ html {
 }
 
 
+/* Motion Section: Sembunyikan teks & logo di awal, lalu beranimasi zoomIn & fadeInUp saat video selesai */
+.motion-item-hidden {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  will-change: transform, opacity;
+}
+
+.motion-item-hidden.anim-in-zoom {
+  visibility: visible !important;
+  pointer-events: auto !important;
+  animation: motionZoomIn 0.95s cubic-bezier(0.175, 0.885, 0.32, 1.25) forwards !important;
+}
+
+.motion-item-hidden.anim-in-up {
+  visibility: visible !important;
+  pointer-events: auto !important;
+  animation: motionFadeInUp 0.95s cubic-bezier(0.25, 1, 0.5, 1) forwards !important;
+}
+
+@keyframes motionZoomIn {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.25, 0.25, 0.25);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes motionFadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 35px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 /* Motion Section Monogram Styling */
 .elementor-element-motion-monogram {
   text-align: center !important;
